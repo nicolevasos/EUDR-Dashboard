@@ -5,6 +5,7 @@ Users can filter data by country and administrative levels, view maps, pie chart
 
 ---
 ## View of the Dasboard
+![Dashboard Screenshot](.github/assets/dashboard_screenshot.png)
 
 
 ---

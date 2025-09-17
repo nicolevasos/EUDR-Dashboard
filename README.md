@@ -11,9 +11,16 @@ Users can filter data by country and administrative levels, view maps, pie chart
 ---
 ## Features
 
+### Custom Data Upload
+- Upload a **CSV dataset** with the same schema as the default.  
+
 ### Interactive Filters
 - Filter data by **country** and **administrative level**.  
 - Filters are dynamic: selecting a country updates available admin-level options.
+
+### Reset Filters
+- Reset all filters and view the full dataset.
+
 
 ### Map Visualization
 - **Leaflet-based map** showing plot locations with risk-colored markers.
@@ -33,12 +40,6 @@ Users can filter data by country and administrative levels, view maps, pie chart
   - Primary forest  
   - Commodities  
   - Disturbances  
-
-### Custom Data Upload
-- Upload a **CSV dataset** with the same schema as the default.  
-
-### Reset Filters
-- Reset all filters and view the full dataset.
 
 ---
 

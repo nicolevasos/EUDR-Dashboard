@@ -1,0 +1,30 @@
+canvas { width: 100% !important; height: 100% !important; }
+
+/* Unified dashboard title */
+.dashboard-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* Table styling */
+#riskTable th, #riskTable td {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+/* Small indicators */
+.small-indicator p { font-size: 0.75rem; text-align: center; }
+
+/* Indicator labels/values */
+.indicator-label { font-size: 0.65rem; color: #ccc; }
+.indicator-value { font-size: 1rem; font-weight: 600; }
+
+/* Specific indicator colors */
+.primary-value { color: #fbbf24; }
+.commodity-value { color: #fbbf24; }
+.treecover-value { color: #fbbf24; }
+.disturbance-pre-value { color: #34d399; }
+.disturbance-post-value { color: #f87171; }

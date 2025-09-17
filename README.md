@@ -4,7 +4,7 @@ An interactive web-based dashboard for visualizing global risk plots and environ
 Users can filter data by country and administrative levels, view maps, pie charts, bar charts, and summary indicators, and even upload their own datasets.
 
 ---
-## View of the Dasboard
+## View of the Dashboard
 ![Dashboard Screenshot](.github/assets/dashboard_screenshot.png)
 
 

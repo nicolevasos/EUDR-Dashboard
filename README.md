@@ -1,4 +1,4 @@
-# Whisp Risk Analysis Dashboard
+# EUDR Risk Analysis Dashboard
 
 An interactive web-based dashboard for visualizing global risk plots and environmental indicators.  
 Users can filter data by country and administrative levels, view maps, pie charts, bar charts, and summary indicators, and even upload their own datasets.

@@ -1,30 +1,222 @@
-canvas { width: 100% !important; height: 100% !important; }
+/* ==========================================================
+   GENERAL CANVAS
+========================================================== */
 
-/* Unified dashboard title */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+/* ==========================================================
+   DASHBOARD TITLES
+========================================================== */
+
 .dashboard-title {
+
   font-size: 0.8rem;
+
   font-weight: 600;
+
   color: #fff;
+
   margin-bottom: 0.5rem;
+
   text-align: left;
+
 }
 
-/* Table styling */
-#riskTable th, #riskTable td {
+
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+#riskTable th,
+#riskTable td {
+
   text-align: center;
+
   font-size: 0.75rem;
+
 }
 
-/* Small indicators */
-.small-indicator p { font-size: 0.75rem; text-align: center; }
 
-/* Indicator labels/values */
-.indicator-label { font-size: 0.65rem; color: #ccc; }
-.indicator-value { font-size: 1rem; font-weight: 600; }
 
-/* Specific indicator colors */
-.primary-value { color: #fbbf24; }
-.commodity-value { color: #fbbf24; }
-.treecover-value { color: #fbbf24; }
-.disturbance-pre-value { color: #34d399; }
-.disturbance-post-value { color: #f87171; }
+/* ==========================================================
+   SMALL INDICATORS
+========================================================== */
+
+.small-indicator p {
+
+  font-size: 0.75rem;
+
+  text-align: center;
+
+}
+
+
+
+/* ==========================================================
+   INDICATOR LABELS
+========================================================== */
+
+.indicator-label {
+
+  font-size: 0.65rem;
+
+  color: #ccc;
+
+}
+
+
+
+/* ==========================================================
+   INDICATOR VALUES
+========================================================== */
+
+.indicator-value {
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+}
+
+
+
+/* ==========================================================
+   PRIMARY FOREST
+========================================================== */
+
+.primary-value {
+
+  color: #fbbf24;
+
+}
+
+
+
+/* ==========================================================
+   COMMODITY
+========================================================== */
+
+.commodity-value {
+
+  color: #fbbf24;
+
+}
+
+
+
+/* ==========================================================
+   TREECOVER
+========================================================== */
+
+.treecover-value {
+
+  color: #fbbf24;
+
+}
+
+
+
+/* ==========================================================
+   DISTURBANCE PRE 2020
+========================================================== */
+
+.disturbance-pre-value {
+
+  color: #34d399;
+
+}
+
+
+
+/* ==========================================================
+   DISTURBANCE POST 2020
+========================================================== */
+
+.disturbance-post-value {
+
+  color: #f87171;
+
+}
+
+
+
+/* ==========================================================
+   LEAFLET
+========================================================== */
+
+#map {
+
+  width: 100%;
+
+  height: 100%;
+
+  min-height: 200px;
+
+}
+
+
+
+/* Leaflet popup */
+
+.leaflet-popup-content {
+
+  font-size: 0.75rem;
+
+  line-height: 1.5;
+
+}
+
+
+
+/* ==========================================================
+   UPLOAD INPUT
+========================================================== */
+
+#uploadDataInput {
+
+  cursor: pointer;
+
+}
+
+
+
+/* ==========================================================
+   SCROLLBARS
+========================================================== */
+
+::-webkit-scrollbar {
+
+  width: 6px;
+
+  height: 6px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+  background: #1f2937;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background: #4b5563;
+
+  border-radius: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #6b7280;
+
+}
